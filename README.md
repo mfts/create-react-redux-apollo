@@ -2,12 +2,13 @@
 
 ## Install Instructions
 ```
-git clone ...
+git clone https://github.com/mfts/create-react-redux-apollo.git
 cd create-react-redux-apollo  # or rename to whatever you'd like
 yarn install
 yarn start
 ```
-You will see an error unless you add a `.env` file in the root directory with a `REACT_APP_GRAPHQL_URI` variable.
+
+If you see an error, rename `.env.sample` to `.env` and add a `REACT_APP_GRAPHQL_URI` variable.
 
 ### To build a deployable version
 ```
@@ -58,7 +59,8 @@ For the project to build, **these files must exist with exact filenames**:
 * `public/index.html` is the page template;
 * `src/index.js` is the JavaScript entry point.
 
--
+---
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
