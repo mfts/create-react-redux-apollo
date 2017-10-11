@@ -59,6 +59,11 @@ For the project to build, **these files must exist with exact filenames**:
 * `public/index.html` is the page template;
 * `src/index.js` is the JavaScript entry point.
 
+## Git Structure (when in active development)
+
+- **master** branch: read-only branch (usually set up with CI)
+- **development** branch: most active branch, create feature-branches from here, and merge to master if everything works
+
 ---
 ---
 
